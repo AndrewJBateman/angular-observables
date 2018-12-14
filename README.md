@@ -1,27 +1,14 @@
 # AngularObservables
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+This project uses the Observables in Angular 7 to stop a process by using ngOnDestroy to avoid memory leak if a page process is left running when the web page is exited. [Angular documentation on observables](https://angular.io/guide/observables)
 
-## Development server
+It was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Notes
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+"The observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. It is mainly used to implement distributed event handling systems. Observables, help JavaScript as a language integrate the observer design pattern."
 
-## Build
+[Link to article by Jen Cooper of Telerik Developer Digest:](https://developer.telerik.com/topics/web-development/introduction-observables-angular-developers/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Link to original tutorial: [Angular RxJS Observables. Understanding the approach](https://www.youtube.com/watch?v=R7Y8k8mHEeA).
