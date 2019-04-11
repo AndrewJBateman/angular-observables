@@ -15,10 +15,10 @@ export class UserComponent implements OnInit {
     this._route.params
       .subscribe(
         (params: Params) => {
-          this.id = +params['id']; //+ coerces id into a string
+          this.id = +params['id']; // + coerces id into a string
         }
 
-      )
+      );
   }
 
 }
