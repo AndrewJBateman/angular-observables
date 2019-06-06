@@ -1,6 +1,6 @@
 # Angular Observables
 
-This project uses the Observables in Angular 7 to stop a process by using ngOnDestroy to avoid memory leak if a page process is left running when the web page is exited.
+This project uses the Observables in Angular 8 to stop a process by using ngOnDestroy to avoid memory leak if a page process is left running when the web page is exited.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -25,9 +25,11 @@ This project uses the Observables in Angular 7 to stop a process by using ngOnDe
 
 ## Technologies
 
-* [Angular v7.2.12](https://angular.io/) & [Angular CLI v7.3.8](https://cli.angular.io/).
+* [Angular v8.0.0](https://angular.io/)
 
-* [RxJS Library v6.4.0](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
+* [Angular CLI v8.0.1](https://cli.angular.io/).
+
+* [RxJS Library v6.5.2](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
 
 ## Setup
 
@@ -64,20 +66,20 @@ export class HomeComponent implements OnInit, OnDestroy {
 
 ## Features
 
-* When the use clicks on the 'Home' link the couter starts counting up every second. If the use clicks on 'User 1' or 'User 2' then the counting stops. This demonstrates that the Angular function`ngOnDestroy()` is working correctly.
+* When the use clicks on the 'Home' link the counter starts counting up every second. If the user clicks on 'User 1' or 'User 2' then the counting stops. This demonstrates that the Angular function`ngOnDestroy()` is working correctly.
 
 ## Status & To-Do List
 
-* Status: very simple working app.
+* Status: Working.
 
 * To-Do: This could be used as a sand-box to try out other angular functionality.
 
 ## Inspiration
 
-* [Angular RxJS Observables. Understanding the approach](https://www.youtube.com/watch?v=R7Y8k8mHEeA).
+* [CodingandCaffeine: Angular RxJS Observables. Understanding the approach](https://www.youtube.com/watch?v=R7Y8k8mHEeA).
 
 * [Link to article by Jen Cooper of Telerik Developer Digest:](https://developer.telerik.com/topics/web-development/introduction-observables-angular-developers/)
 
 ## Contact
 
-Created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
