@@ -25,15 +25,14 @@ This project uses the Observables in Angular 9 to stop a process by using ngOnDe
 
 ## Technologies
 
-* [Angular v8.0.0](https://angular.io/)
-
-* [Angular CLI v8.0.1](https://cli.angular.io/).
-
-* [RxJS Library v6.5.2](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
+* [Angular v9.1.0](https://angular.io/)
+* [RxJS Library v6.5.4](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
 
 ## Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Install dependencies using `npm i`
+* Run `ng serve` for a dev server.
+* Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files
 
 ## Code Examples
 
@@ -71,13 +70,11 @@ export class HomeComponent implements OnInit, OnDestroy {
 ## Status & To-Do List
 
 * Status: Working.
-
 * To-Do: This could be used as a sand-box to try out other angular functionality.
 
 ## Inspiration
 
 * [CodingandCaffeine: Angular RxJS Observables. Understanding the approach](https://www.youtube.com/watch?v=R7Y8k8mHEeA).
-
 * [Link to article by Jen Cooper of Telerik Developer Digest:](https://developer.telerik.com/topics/web-development/introduction-observables-angular-developers/)
 
 ## Contact
