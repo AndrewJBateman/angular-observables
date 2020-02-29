@@ -1,6 +1,6 @@
 # Angular Observables
 
-This project uses the Observables in Angular 8 to stop a process by using ngOnDestroy to avoid memory leak if a page process is left running when the web page is exited.
+This project uses the Observables in Angular 9 to stop a process by using ngOnDestroy to avoid memory leak if a page process is left running when the web page is exited.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
