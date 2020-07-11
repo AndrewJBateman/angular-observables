@@ -1,44 +1,43 @@
-# Angular Observables
+# :zap: Angular Observables
 
-This project uses the Observables in Angular 9 to stop a process by using ngOnDestroy to avoid memory leak if a page process is left running when the web page is exited.
+This project uses the Observables in Angular 10 to stop a process by using ngOnDestroy to avoid memory leak if a page process is left running when the web page is exited.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
-## Table of contents
+## :page_facing_up: Table of contents
 
-* [Angular Observables](#angular-observables)
-  * [Table of contents](#table-of-contents)
-  * [General info](#general-info)
-  * [Screenshots](#screenshots)
-  * [Technologies](#technologies)
-  * [Setup](#setup)
-  * [Code Examples](#code-examples)
-  * [Features](#features)
-  * [Status & To-Do List](#status--to-do-list)
-  * [Inspiration](#inspiration)
-  * [Contact](#contact)
+* [:zap: Angular Observables](#zap-angular-observables)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:envelope: Contact](#envelope-contact)
 
-## General info
+## :books: General info
 
 "The observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods. It is mainly used to implement distributed event handling systems. Observables, help JavaScript as a language integrate the observer design pattern."
 
-## Screenshots
+## :camera: Screenshots
 
 ![Example screenshot](./img/observables.png).
 
-## Technologies
+## :signal_strength: Technologies
 
-* [Angular v9.1.0](https://angular.io/)
-* [RxJS Library v6.5.4](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
+* [Angular v10](https://angular.io/)
+* [RxJS Library v6](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
 
-## Setup
+## :floppy_disk: Setup
 
-* npm i save-dev @angular-devkit/build-angular
 * Install dependencies using `npm i`
 * Run `ng serve` for a dev server.
 * Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files
 
-## Code Examples
+## :computer: Code Examples
 
 ```typescript
 import { Component, OnInit, OnDestroy } from '@angular/core';
@@ -67,20 +66,21 @@ export class HomeComponent implements OnInit, OnDestroy {
 
 ```
 
-## Features
+## :cool: Features
 
-* When the use clicks on the 'Home' link the counter starts counting up every second. If the user clicks on 'User 1' or 'User 2' then the counting stops. This demonstrates that the Angular function`ngOnDestroy()` is working correctly.
+* When the user clicks on the 'Home' link the counter starts counting up every second. If the user clicks on 'User 1' or 'User 2' then the counting stops. This demonstrates that the Angular function`ngOnDestroy()` is working correctly.
+* Updated to use latest Angular 10, all dependencies updated with no vulnerabilities.
 
-## Status & To-Do List
+## :clipboard: Status & To-Do List
 
 * Status: Working.
 * To-Do: This could be used as a sand-box to try out other angular functionality.
 
-## Inspiration
+## :clap: Inspiration
 
 * [CodingandCaffeine: Angular RxJS Observables. Understanding the approach](https://www.youtube.com/watch?v=R7Y8k8mHEeA).
 * [Link to article by Jen Cooper of Telerik Developer Digest:](https://developer.telerik.com/topics/web-development/introduction-observables-angular-developers/)
 
-## Contact
+## :envelope: Contact
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
