@@ -6,14 +6,17 @@ This project uses the Observables in Angular 9 to stop a process by using ngOnDe
 
 ## Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [Angular Observables](#angular-observables)
+  * [Table of contents](#table-of-contents)
+  * [General info](#general-info)
+  * [Screenshots](#screenshots)
+  * [Technologies](#technologies)
+  * [Setup](#setup)
+  * [Code Examples](#code-examples)
+  * [Features](#features)
+  * [Status & To-Do List](#status--to-do-list)
+  * [Inspiration](#inspiration)
+  * [Contact](#contact)
 
 ## General info
 
@@ -30,6 +33,7 @@ This project uses the Observables in Angular 9 to stop a process by using ngOnDe
 
 ## Setup
 
+* npm i save-dev @angular-devkit/build-angular
 * Install dependencies using `npm i`
 * Run `ng serve` for a dev server.
 * Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files
