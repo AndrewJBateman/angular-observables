@@ -1,6 +1,6 @@
 # :zap: Angular Observables
 
-This project uses the Observables in Angular 10 to stop a process by using ngOnDestroy to avoid memory leak if a page process is left running when the web page is exited.
+* This project uses the Observables in Angular 11 to stop a process by using ngOnDestroy to avoid memory leak if a page process is left running when the web page is exited.
 
 *** Note: to open web links in a new window use: _ctrl+click on link_**
 
@@ -28,7 +28,7 @@ This project uses the Observables in Angular 10 to stop a process by using ngOnD
 
 ## :signal_strength: Technologies
 
-* [Angular v10](https://angular.io/)
+* [Angular v11](https://angular.io/)
 * [RxJS Library v6](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
 
 ## :floppy_disk: Setup
@@ -69,7 +69,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 ## :cool: Features
 
 * When the user clicks on the 'Home' link the counter starts counting up every second. If the user clicks on 'User 1' or 'User 2' then the counting stops. This demonstrates that the Angular function`ngOnDestroy()` is working correctly.
-* Updated to use latest Angular 10, all dependencies updated with no vulnerabilities.
+* Updated to use latest Angular 11, all dependencies updated with no vulnerabilities.
 
 ## :clipboard: Status & To-Do List
 
@@ -79,7 +79,6 @@ export class HomeComponent implements OnInit, OnDestroy {
 ## :clap: Inspiration
 
 * [CodingandCaffeine: Angular RxJS Observables. Understanding the approach](https://www.youtube.com/watch?v=R7Y8k8mHEeA).
-* [Link to article by Jen Cooper of Telerik Developer Digest:](https://developer.telerik.com/topics/web-development/introduction-observables-angular-developers/)
 
 ## :envelope: Contact
 
