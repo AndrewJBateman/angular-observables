@@ -1,8 +1,12 @@
 # :zap: Angular Observables
 
-* This project uses the Observables in Angular 11 to stop a process by using ngOnDestroy to avoid memory leak if a page process is left running when the web page is exited.
+* This project uses the Observables in Angular to stop a process by using ngOnDestroy to avoid memory leak if a page process is left running when the web page is exited.
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-*** Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-observables?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/angular-observables?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/angular-observables?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/angular-observables?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -28,7 +32,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v11](https://angular.io/)
+* [Angular v12](https://angular.io/)
 * [RxJS Library v6](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
 
 ## :floppy_disk: Setup
@@ -73,7 +77,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 
 ## :clipboard: Status & To-Do List
 
-* Status: Working.
+* Status: Working. Updated may 2021.
 * To-Do: This could be used as a sand-box to try out other angular functionality.
 
 ## :clap: Inspiration
@@ -82,4 +86,4 @@ export class HomeComponent implements OnInit, OnDestroy {
 
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
