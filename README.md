@@ -84,6 +84,10 @@ export class HomeComponent implements OnInit, OnDestroy {
 
 * [CodingandCaffeine: Angular RxJS Observables. Understanding the approach](https://www.youtube.com/watch?v=R7Y8k8mHEeA).
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
 * Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
