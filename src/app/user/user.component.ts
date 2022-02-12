@@ -12,6 +12,7 @@ export class UserComponent implements OnInit {
   constructor(private _route: ActivatedRoute) {}
 
   ngOnInit() {
+    // get id number from the nav route params
     this._route.params.subscribe((params: Params) => {
       this.id = +params["id"]; // + coerces id into a string
     });
