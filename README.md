@@ -1,6 +1,6 @@
 # :zap: Angular Observables
 
-* This project uses the Observables in Angular to stop a process by using ngOnDestroy to avoid memory leak if a page process is left running when the web page is exited.
+* This project uses RxJS observables in Angular to stop a process by using ngOnDestroy to avoid memory leak if a page process is left running when the web page is exited.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/angular-observables?style=plastic)
@@ -19,7 +19,7 @@
   * [:computer: Code Examples](#computer-code-examples)
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
-  * [:clap: Inspiration](#inspiration)
+  * [:clap: Inspiration](#clap-inspiration)
   * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
@@ -33,7 +33,7 @@
 
 ## :signal_strength: Technologies
 
-* [Angular v13](https://angular.io/)
+* [Angular v14](https://angular.io/)
 * [RxJS Library v7](https://angular.io/guide/rx-library) used to handle datastreams and propagation of change using observables.
 
 ## :floppy_disk: Setup
@@ -74,12 +74,11 @@ export class HomeComponent implements OnInit, OnDestroy {
 ## :cool: Features
 
 * When the user clicks on the 'Home' link the counter starts counting up every second. If the user clicks on 'User 1' or 'User 2' then the counting stops. This demonstrates that the Angular function`ngOnDestroy()` is working correctly.
-* Updated to use latest Angular 11, all dependencies updated with no vulnerabilities.
 
 ## :clipboard: Status & To-Do List
 
 * Status: Working.
-* To-Do: This could be used as a sand-box to try out other angular functionality.
+* To-Do: Nothing
 
 ## :clap: Inspiration
 
