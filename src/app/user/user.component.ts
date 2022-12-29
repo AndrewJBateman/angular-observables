@@ -9,7 +9,7 @@ import { ActivatedRoute, Params } from "@angular/router";
 export class UserComponent implements OnInit {
   id: number;
 
-  constructor(private _route: ActivatedRoute) {}
+  constructor(private _route: ActivatedRoute) { }
 
   ngOnInit() {
     // get id number from the nav route params
